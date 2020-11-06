@@ -9,9 +9,10 @@ app.use( parser.urlencoded({extended:true}) );
 app.use( express.static("public") );
 
 var myList = [];
+const port = 5000;
 
-app.listen(5000, ()=>{
-  console.log("I'm fine. Everything is ok. I'm in the port 3000.");
+app.listen(port , ()=>{
+  console.log("I'm fine. Everything is ok. I'm in the port " + port + ".");
 });
 
 app.get('/', (req, res)=>{
