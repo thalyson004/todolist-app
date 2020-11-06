@@ -1,0 +1,41 @@
+
+body{
+  background-color: #fceef5;
+}
+p{
+  display: inline;
+}
+
+.day{
+  background-color: #ea86b6;
+  font-size: 3rem;
+  margin: 2rem 20rem 1rem 20rem;
+  width: auto;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+.my-list {
+  align-self: center;
+  margin: auto 20rem auto 20rem;
+  box-shadow: 5px 5px rgba(0,0,0,0.3);
+  margin-bottom: 1rem;
+}
+.form-control{
+  display: flex;
+  margin-right: 1rem;
+}
+.form-inline{
+  display: flex;
+}
+.btn{
+  background: #f3bad6;
+}
+
+input:checked + p{
+  text-decoration: line-through;
+}
+
+footer{
+      margin-bottom: 10rem;
+}
